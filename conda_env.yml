@@ -1,4 +1,4 @@
-name: pysnowpark
+name: pysnowpark2
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
   - nodefaults
@@ -7,5 +7,6 @@ dependencies:
   - pip
   - pip:
     # Snowpark
+    - snowflake-connector-python==2.7.12
     - snowflake-snowpark-python[pandas]
     - snowflake-cli-labs
